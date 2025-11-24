@@ -17,27 +17,51 @@ interface Project {
     styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {
-    projects: Project[] = [
+    professionalProjects: Project[] = [
         {
-            title: 'E-Commerce Platform',
-            description: 'A full-stack e-commerce solution with real-time inventory management, secure payments, and an intuitive admin dashboard.',
-            image: 'assets/project1.jpg', // Placeholder, user can replace
+            title: 'Broadside',
+            description: 'An SMS and email sender product developed for the company.',
+            image: 'assets/broadside.png',
             link: '#',
-            tags: ['Angular', 'Node.js', 'MongoDB', 'Stripe']
+            tags: ['Product Development', 'Communication']
         },
         {
-            title: 'Task Management App',
-            description: 'A collaborative task management tool featuring drag-and-drop boards, real-time updates, and team analytics.',
-            image: 'assets/project2.jpg', // Placeholder
+            title: 'AURY',
+            description: 'Worked as a Java Backend Developer on this product.',
+            image: 'assets/aury.png',
             link: '#',
-            tags: ['React', 'Firebase', 'Tailwind CSS']
+            tags: ['Java', 'Backend', 'Product Development']
         },
         {
-            title: 'Weather Dashboard',
-            description: 'A beautiful weather dashboard providing detailed forecasts, interactive maps, and severe weather alerts.',
-            image: 'assets/project3.jpg', // Placeholder
+            title: 'Broadside DC Generated',
+            description: 'A webpage generated using Angular for Broadside DC.',
+            image: 'assets/broadside-dc.png',
             link: '#',
-            tags: ['Vue.js', 'OpenWeatherMap API', 'Chart.js']
+            tags: ['Angular', 'Frontend', 'Web Development']
+        }
+    ];
+
+    personalProjects: Project[] = [
+        {
+            title: 'Blog App APIs',
+            description: 'A purely backend API project for a blog application built using Java and Spring Boot.',
+            image: 'assets/blog-api.png',
+            link: '#',
+            tags: ['Java', 'Spring Boot', 'Backend', 'API']
+        },
+        {
+            title: 'Electronic Store (Java)',
+            description: 'An electronic store management system backend built using Java and Spring Boot.',
+            image: 'assets/estore-java.png',
+            link: 'https://github.com/Omkar89999/Electronic-Store',
+            tags: ['Java', 'Spring Boot', 'Backend']
+        },
+        {
+            title: 'Electronic Store (Go)',
+            description: 'An electronic store management system backend built using Go and Gin framework.',
+            image: 'assets/estore-go.png',
+            link: 'https://github.com/Omkar89999/ecom-go-project',
+            tags: ['Go', 'Gin', 'Backend']
         }
     ];
 }
